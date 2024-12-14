@@ -49,6 +49,7 @@ enum {
     MENU_COOPSTOCK,
     MENU_COOPUSER,
     MENU_OPTIONS,
+    MENU_ACHIEVEMENTS,
     MENU_VIDEO,
     MENU_AUDIO,
     MENU_CONTROL,
@@ -80,6 +81,7 @@ void() Menu_Pause;
 #endif // MENU
 
 void() Menu_Options;
+void() Menu_Achievements;
 void() Menu_Video;
 void() Menu_Audio;
 void() Menu_Control;
@@ -115,6 +117,8 @@ string(string next_id) Menu_Pause_GetPreviousButton;
 
 string(string prev_id) Menu_Options_GetNextButton;
 string(string next_id) Menu_Options_GetPreviousButton;
+string(string prev_id) Menu_Achievements_GetNextButton;
+string(string next_id) Menu_Achievements_GetPreviousButton;
 string(string prev_id) Menu_Video_GetNextButton;
 string(string next_id) Menu_Video_GetPreviousButton;
 string(string prev_id) Menu_Audio_GetNextButton;

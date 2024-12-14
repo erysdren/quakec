@@ -14,6 +14,7 @@ m_menu.qc
 menu_main.qc     // Main Menu
 menu_maps.qc     // Maps Menu
 menu_opts.qc     // Options Menu
+menu_achi.qc     // Achievements Menu
 menu_vide.qc     // Video Menu
 menu_audi.qc     // Audio Menu
 menu_ctrl.qc     // Control Menu

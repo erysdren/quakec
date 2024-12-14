@@ -75,8 +75,7 @@ void() Menu_Main =
     Menu_Button(2, "mm_coop", "COOPERATIVE", "Play with up to Four Players.") ? current_menu = MENU_COOP : 0;
     Menu_DrawDivider(3);
     Menu_Button(3.25, "mm_options", "CONFIGURATION", "Tweak Game related Options.") ? current_menu = MENU_OPTIONS : 0;
-    //Menu_Button(4.25, "mm_achievements", "ACHIEVEMENTS", "View Achievement Progress.") ? localcmd("\n") : 0;
-    Menu_GreyButton(4.25, "ACHIEVEMENTS");
+    Menu_Button(4.25, "mm_achievements", "ACHIEVEMENTS", "View Achievement Progress.") ? current_menu = MENU_ACHIEVEMENTS : 0;
     Menu_DrawDivider(5.25);
     Menu_Button(5.50, "mm_credits", "CREDITS", "NZ:P Team + Special Thanks.") ? current_menu = MENU_CREDITS : 0;
 
